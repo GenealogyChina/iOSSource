@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29FD92201C79659600969458 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FD921F1C79659600969458 /* main.m */; };
+		29FD92231C79659600969458 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FD92221C79659600969458 /* AppDelegate.m */; };
+		29FD92261C79659600969458 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FD92251C79659600969458 /* ViewController.m */; };
+		29FD92291C79659600969458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29FD92271C79659600969458 /* Main.storyboard */; };
+		29FD922B1C79659600969458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29FD922A1C79659600969458 /* Assets.xcassets */; };
+		29FD922E1C79659600969458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29FD922C1C79659600969458 /* LaunchScreen.storyboard */; };
+		29FD92391C79659600969458 /* GenealogyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FD92381C79659600969458 /* GenealogyTests.m */; };
+		29FD92441C79659600969458 /* GenealogyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FD92431C79659600969458 /* GenealogyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29FD92351C79659600969458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29FD92131C79659600969458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29FD921A1C79659600969458;
+			remoteInfo = Genealogy;
+		};
+		29FD92401C79659600969458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29FD92131C79659600969458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29FD921A1C79659600969458;
+			remoteInfo = Genealogy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29FD921B1C79659600969458 /* Genealogy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Genealogy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FD921F1C79659600969458 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29FD92211C79659600969458 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29FD92221C79659600969458 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29FD92241C79659600969458 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29FD92251C79659600969458 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29FD92281C79659600969458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29FD922A1C79659600969458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29FD922D1C79659600969458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29FD922F1C79659600969458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29FD92341C79659600969458 /* GenealogyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenealogyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FD92381C79659600969458 /* GenealogyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenealogyTests.m; sourceTree = "<group>"; };
+		29FD923A1C79659600969458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29FD923F1C79659600969458 /* GenealogyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenealogyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FD92431C79659600969458 /* GenealogyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenealogyUITests.m; sourceTree = "<group>"; };
+		29FD92451C79659600969458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29FD92181C79659600969458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FD92311C79659600969458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FD923C1C79659600969458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29FD92121C79659600969458 = {
+			isa = PBXGroup;
+			children = (
+				29FD921D1C79659600969458 /* Genealogy */,
+				29FD92371C79659600969458 /* GenealogyTests */,
+				29FD92421C79659600969458 /* GenealogyUITests */,
+				29FD921C1C79659600969458 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29FD921C1C79659600969458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29FD921B1C79659600969458 /* Genealogy.app */,
+				29FD92341C79659600969458 /* GenealogyTests.xctest */,
+				29FD923F1C79659600969458 /* GenealogyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29FD921D1C79659600969458 /* Genealogy */ = {
+			isa = PBXGroup;
+			children = (
+				29FD92211C79659600969458 /* AppDelegate.h */,
+				29FD92221C79659600969458 /* AppDelegate.m */,
+				29FD92241C79659600969458 /* ViewController.h */,
+				29FD92251C79659600969458 /* ViewController.m */,
+				29FD92271C79659600969458 /* Main.storyboard */,
+				29FD922A1C79659600969458 /* Assets.xcassets */,
+				29FD922C1C79659600969458 /* LaunchScreen.storyboard */,
+				29FD922F1C79659600969458 /* Info.plist */,
+				29FD921E1C79659600969458 /* Supporting Files */,
+			);
+			path = Genealogy;
+			sourceTree = "<group>";
+		};
+		29FD921E1C79659600969458 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29FD921F1C79659600969458 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29FD92371C79659600969458 /* GenealogyTests */ = {
+			isa = PBXGroup;
+			children = (
+				29FD92381C79659600969458 /* GenealogyTests.m */,
+				29FD923A1C79659600969458 /* Info.plist */,
+			);
+			path = GenealogyTests;
+			sourceTree = "<group>";
+		};
+		29FD92421C79659600969458 /* GenealogyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29FD92431C79659600969458 /* GenealogyUITests.m */,
+				29FD92451C79659600969458 /* Info.plist */,
+			);
+			path = GenealogyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29FD921A1C79659600969458 /* Genealogy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29FD92481C79659600969458 /* Build configuration list for PBXNativeTarget "Genealogy" */;
+			buildPhases = (
+				29FD92171C79659600969458 /* Sources */,
+				29FD92181C79659600969458 /* Frameworks */,
+				29FD92191C79659600969458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Genealogy;
+			productName = Genealogy;
+			productReference = 29FD921B1C79659600969458 /* Genealogy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29FD92331C79659600969458 /* GenealogyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29FD924B1C79659600969458 /* Build configuration list for PBXNativeTarget "GenealogyTests" */;
+			buildPhases = (
+				29FD92301C79659600969458 /* Sources */,
+				29FD92311C79659600969458 /* Frameworks */,
+				29FD92321C79659600969458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29FD92361C79659600969458 /* PBXTargetDependency */,
+			);
+			name = GenealogyTests;
+			productName = GenealogyTests;
+			productReference = 29FD92341C79659600969458 /* GenealogyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29FD923E1C79659600969458 /* GenealogyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29FD924E1C79659600969458 /* Build configuration list for PBXNativeTarget "GenealogyUITests" */;
+			buildPhases = (
+				29FD923B1C79659600969458 /* Sources */,
+				29FD923C1C79659600969458 /* Frameworks */,
+				29FD923D1C79659600969458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29FD92411C79659600969458 /* PBXTargetDependency */,
+			);
+			name = GenealogyUITests;
+			productName = GenealogyUITests;
+			productReference = 29FD923F1C79659600969458 /* GenealogyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29FD92131C79659600969458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "xiao huama";
+				TargetAttributes = {
+					29FD921A1C79659600969458 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					29FD92331C79659600969458 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 29FD921A1C79659600969458;
+					};
+					29FD923E1C79659600969458 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 29FD921A1C79659600969458;
+					};
+				};
+			};
+			buildConfigurationList = 29FD92161C79659600969458 /* Build configuration list for PBXProject "Genealogy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29FD92121C79659600969458;
+			productRefGroup = 29FD921C1C79659600969458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29FD921A1C79659600969458 /* Genealogy */,
+				29FD92331C79659600969458 /* GenealogyTests */,
+				29FD923E1C79659600969458 /* GenealogyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29FD92191C79659600969458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FD922E1C79659600969458 /* LaunchScreen.storyboard in Resources */,
+				29FD922B1C79659600969458 /* Assets.xcassets in Resources */,
+				29FD92291C79659600969458 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FD92321C79659600969458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FD923D1C79659600969458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29FD92171C79659600969458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FD92261C79659600969458 /* ViewController.m in Sources */,
+				29FD92231C79659600969458 /* AppDelegate.m in Sources */,
+				29FD92201C79659600969458 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FD92301C79659600969458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FD92391C79659600969458 /* GenealogyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FD923B1C79659600969458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FD92441C79659600969458 /* GenealogyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29FD92361C79659600969458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29FD921A1C79659600969458 /* Genealogy */;
+			targetProxy = 29FD92351C79659600969458 /* PBXContainerItemProxy */;
+		};
+		29FD92411C79659600969458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29FD921A1C79659600969458 /* Genealogy */;
+			targetProxy = 29FD92401C79659600969458 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29FD92271C79659600969458 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29FD92281C79659600969458 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29FD922C1C79659600969458 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29FD922D1C79659600969458 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29FD92461C79659600969458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29FD92471C79659600969458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29FD92491C79659600969458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Genealogy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxiaohua.Genealogy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29FD924A1C79659600969458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Genealogy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxiaohua.Genealogy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		29FD924C1C79659600969458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GenealogyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxiaohua.GenealogyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Genealogy.app/Genealogy";
+			};
+			name = Debug;
+		};
+		29FD924D1C79659600969458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GenealogyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxiaohua.GenealogyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Genealogy.app/Genealogy";
+			};
+			name = Release;
+		};
+		29FD924F1C79659600969458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GenealogyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxiaohua.GenealogyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Genealogy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		29FD92501C79659600969458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GenealogyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxiaohua.GenealogyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Genealogy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29FD92161C79659600969458 /* Build configuration list for PBXProject "Genealogy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FD92461C79659600969458 /* Debug */,
+				29FD92471C79659600969458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29FD92481C79659600969458 /* Build configuration list for PBXNativeTarget "Genealogy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FD92491C79659600969458 /* Debug */,
+				29FD924A1C79659600969458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29FD924B1C79659600969458 /* Build configuration list for PBXNativeTarget "GenealogyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FD924C1C79659600969458 /* Debug */,
+				29FD924D1C79659600969458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29FD924E1C79659600969458 /* Build configuration list for PBXNativeTarget "GenealogyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FD924F1C79659600969458 /* Debug */,
+				29FD92501C79659600969458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29FD92131C79659600969458 /* Project object */;
+}
